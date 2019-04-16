@@ -43,4 +43,14 @@ def play (array)
     end
 end
 
+def exit_jukebox
+  
+end
+
+
+
+
+
+
+
 

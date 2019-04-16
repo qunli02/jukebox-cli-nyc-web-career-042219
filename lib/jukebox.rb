@@ -31,7 +31,8 @@ def play (array)
   sort = input.to_i
   
     if sort > 0 && sort < (array.legnth + 2)
-      puts "Playing #{array[sort - 1]}" 
+      x = sort - 1
+      puts "Playing #{array[x]}" 
     
     elsif sort == 0 && array.include?(input)
       puts "Playing #{input}"

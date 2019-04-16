@@ -47,7 +47,7 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run 
+def run (array)
   loop do
     puts "Please enter a command:"
     input = get.chomp

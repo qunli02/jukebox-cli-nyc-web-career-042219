@@ -50,7 +50,7 @@ end
 def run (array)
   loop do
     puts "Please enter a command:"
-    input = get.chomp
+    input = gets.chomp
     if input == "list"
       list
     elsif input == "play"

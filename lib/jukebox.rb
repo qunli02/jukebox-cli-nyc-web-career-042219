@@ -38,6 +38,7 @@ def play (array)
       break
     else
       puts "Invalid input, please try again"
+      break
     end
   end
 end

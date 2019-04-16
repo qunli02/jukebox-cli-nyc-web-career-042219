@@ -33,7 +33,7 @@ def play (array)
   elsif input.class == String && array.include?(input)
     puts "Playing #{input}"
   else
-    puts 
+    puts "Invalid input, please try again"
   end
 end
 

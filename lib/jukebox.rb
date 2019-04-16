@@ -30,7 +30,7 @@ def play (array)
   input = gets.chomp
   sort = input.to_i
   
-    if sort > 0 && sort < (array.legnth + 2)
+    if sort > 0 && sort < (array.length + 2)
       x = sort - 1
       puts "Playing #{array[x]}" 
     

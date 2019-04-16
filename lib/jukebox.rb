@@ -28,18 +28,12 @@ end
 def play (array)
   puts "Please enter a song name or number:"
   input = gets.chomp
-  loop do
-    if (input > 0 && input <= array.length + 1) or array.include?(input)
-      if input.class == Integer 
-        puts "Playing #{array[input - 1]}"
-      end
-      if input.class == String
-        puts "Playing #{input}"
-      end
-      break
-    else
-      puts "Invalid input, please try again"
-    end
+  if input.class == Integer && input > 0 && input <= (array.legnth + 1)
+    puts "Playing #{array[input - 1]}" 
+  elsif input.class == String && array.include?(input)
+    puts "Playing #{input}"
+  else
+    puts 
   end
 end
 

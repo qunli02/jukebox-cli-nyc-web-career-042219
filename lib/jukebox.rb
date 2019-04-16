@@ -29,18 +29,17 @@ def play (array)
   puts "Please enter a song name or number:"
   input = gets.chomp
   sort = input.to_i
-  loop do  
+  
     if sort > 0 && sort < (array.legnth + 2)
       puts "Playing #{array[sort - 1]}" 
-      break
+    
     elsif sort == 0 && array.include?(input)
       puts "Playing #{input}"
-      break
+  
     else
       puts "Invalid input, please try again"
-      break
+
     end
-  end
 end
 
 
